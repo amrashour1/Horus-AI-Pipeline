@@ -1,0 +1,8 @@
+google-cloud-aiplatform>=1.30.0
+redis>=4.5.0
+chromadb>=0.4.0
+memgpt>=0.1.0
+python-dotenv>=1.0.0
+fastapi>=0.95.0
+pydantic>=2.0.0
+uvicorn>=0.22.0
