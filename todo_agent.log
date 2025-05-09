@@ -1,0 +1,9 @@
+2025-05-05 11:22:46,853 - todo_agent - ERROR - فشل الاتصال بقاعدة البيانات: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2025-05-05 11:22:46,854 - todo_agent - INFO - تم تحميل ملف قائمة المهام بنجاح
+2025-05-05 11:22:46,854 - todo_agent - INFO - تم تهيئة وكيل قائمة المهام بنجاح
+2025-05-07 07:22:47,299 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-05-07 07:22:47,301 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-05-07 07:22:47,301 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-07 07:22:47,355 - todo_agent - ERROR - فشل الاتصال بقاعدة البيانات: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2025-05-07 07:22:47,358 - todo_agent - INFO - تم تحميل ملف قائمة المهام بنجاح
+2025-05-07 07:22:47,359 - todo_agent - INFO - تم تهيئة وكيل قائمة المهام بنجاح

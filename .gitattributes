@@ -1,0 +1,46 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Documents
+*.md text
+*.txt text
+*.rst text
+
+# Python
+*.py text
+*.pyw text
+*.pyx text
+*.pxd text
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Web
+*.html text
+*.css text
+*.js text
+*.json text
+*.yaml text
+*.yml text
+
+# Docker
+Dockerfile text
+*.dockerfile text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.whl binary
+
+# Exclude files from exporting
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore

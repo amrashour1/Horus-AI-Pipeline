@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+u0645u0644u0641 u062au0643u0648u064au0646 u0642u0627u0639u062fu0629 u0627u0644u0628u064au0627u0646u0627u062a u0644u0645u0634u0631u0648u0639 Horus AI Pipeline
+"""
+
+# u0625u0639u062fu0627u062fu0627u062a u0627u0644u0627u062au0635u0627u0644
+DB_CONFIG = {
+    "host": "127.0.0.1",  # الاتصال بالمحلي بدلاً من docker
+    "port": 3306,
+    "user": "root",
+    "password": "2452329511",  # كلمة المرور الحالية
+    "database": "windsurf_pro_hours",  # اسم قاعدة البيانات الحالية
+    "raise_on_warnings": True,  # إضافة تحذيرات عند وجود مشاكل
+    "use_pure": True  # استخدام مكتبة Python النقية بدلاً من C
+}
+
+# u0625u0639u062fu0627u062fu0627u062a u0627u0644u0627u062au0635u0627u0644
+CONNECTION_SETTINGS = {
+    "pool_size": 5,        # u062du062cu0645 u062au062cu0645u0639 u0627u0644u0627u062au0635u0627u0644u0627u062a
+    "pool_reset_session": True,  # u0625u0639u0627u062fu0629 u062au0639u064au064au0646 u0627u0644u062cu0644u0633u0629 u0639u0646u062f u0625u0639u0627u062fu0629 u0627u0644u0627u062au0635u0627u0644 u0625u0644u0649 u0627u0644u062au062cu0645u0639
+    "autocommit": True,    # u062au0646u0641u064au0630 u0627u0644u0639u0645u0644u064au0627u062a u062au0644u0642u0627u0626u064au0627u064b
+    "charset": "utf8mb4",  # u062fu0639u0645 u0627u0644u0644u063au0629 u0627u0644u0639u0631u0628u064au0629 u0648u0627u0644u0631u0645u0648u0632 u0627u0644u062au0639u0628u064au0631u064au0629
+    "connect_timeout": 10  # u0645u0647u0644u0629 u0627u0644u0627u062au0635u0627u0644 u0628u0627u0644u062bu0648u0627u0646u064a
+}

@@ -1,8 +1,31 @@
-google-cloud-aiplatform>=1.30.0
-redis>=4.5.0
-chromadb>=0.4.0
-memgpt>=0.1.0
+# المكتبات الأساسية
 python-dotenv>=1.0.0
+google-generativeai>=0.3.0
+mysql-connector-python>=8.0.0
+
+# مكتبات Google Cloud
+google-cloud-aiplatform>=1.36.0
+google-auth>=2.22.0
+google-oauth2-tool>=0.0.3
+
+# مكتبات واجهة برمجة التطبيقات
 fastapi>=0.95.0
 pydantic>=2.0.0
 uvicorn>=0.22.0
+
+# مكتبات الذاكرة
+redis>=4.5.0
+# chromadb>=0.4.0
+# memgpt>=0.1.0
+
+# حزم التكامل مع خدمات جوجل السحابية
+google-cloud-aiplatform==1.25.0
+google-auth==2.22.0
+google-cloud-logging==3.0.0
+generativeai==0.3.0
+vertexai==1.25.0
+
+# مكتبات التطوير
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
